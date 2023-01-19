@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&family=Ubuntu:ital,wght@0,700;1,300;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #5F6F94;
+}
+
+ li,a,button {
+    background-color:#B0DAEE;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.text{
+    display: flex;
+    background-color:#B0DAEE;
+    width: 270px;
+    height: 60px;
+    cursor: pointer;
+    color: #000000;
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: 'Fredoka One', cursive;
+    gap: 2px;
+    margin-top: -10px;
+    margin-left: -50px;
+    cursor:default;
+}
+
+   #pato-bailando{
+       position: relative;
+       width: 70px;
+       height: 70px;
+       margin-top: -10px;
+   }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #B0DAEE;
+    min-width: 100vh ;
+    min-height: 100px;
+}
+
+.nav_links{
+    background-color: #B0DAEE;
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 20px 65px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: red;    
+}
+
+#mas-info{
+    padding: 15px 15px;
+    background-color: rgb(63, 12, 117);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+
+#mas-info:hover{
+    background-color: rgb(124, 49, 210);
+   	position: relative;	
+    box-shadow: 5px -5px 9px 2px #7f038d;
+}
+
+#instagram{
+    position: relative;
+    background-color: #B0DAEE;
+    width: 70px;
+    height: 60px;
+}
+
+#youtube{
+    position: relative;
+    background-color: #B0DAEE;
+    width: 80px;
+    height: 55px;
+}
+
+#linke{
+    position: relative;
+    background-color: #B0DAEE;
+    width: 120px;
+    height: 60px;
+}
+
+#instagram:hover{
+    animation:translacion 0.2s ease-in forwards ;
+}
+
+#youtube:hover{
+    animation:translacion 0.2s ease-in forwards ;
+}
+
+#linke:hover{
+    animation:translacion 0.2s ease-in forwards ;
+}
+
+
+@keyframes translacion{
+    0% {
+        transform: translateY(0px) ; 
+        
+    }
+    100% {
+        transform: translatey(-10px);
+    }
+    
+}

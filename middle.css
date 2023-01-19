@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&family=Ubuntu:ital,wght@0,700;1,300;1,700&display=swap');
+@font-face {
+    font-family: "Diary of an 8-bit mage";
+    src: url(fuente/Diary\ of\ an\ 8-bit\ mage.woff);
+}
+
+#sub-titulo{
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 8em;
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(212, 162, 0);
+    width: auto;
+}
+#encriptar{
+    margin-right: 6rem;
+}
+#encriptado{
+    margin-right: 2rem;
+}
+
+.container-texto {
+    padding-top: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#text-entrada{
+    color: white;
+    padding:20px;
+    background-color: #c9a68f;
+    border-radius: 10px;
+    min-width:  500px;
+    min-height: 250px;
+    text-align:start;
+    font-size: larger;
+    font-family: "Diary of an 8-bit mage";
+    outline: none;
+    position: relative;	
+    box-shadow: -10px -5px 10px 0px #3c3b37;
+    border-left: solid 2px #3c3b37;
+    border-top: solid 2px #3c3b37;
+}
+
+
+#text-entrada::placeholder{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Diary of an 8-bit mage";
+    font-style: bold;
+}
+#text-entrada:focus{
+    background-color: #b89883; 
+}
+
+#text-salida {
+    color: white;
+    padding: 20px;
+    background-color: #c9a68f; 
+    min-width:  500px;
+    min-height: 250px;
+    border-radius: 10px;
+    text-align:center;
+    font-size: larger; 
+    font-family: "Diary of an 8-bit mage";
+    outline: none;
+    position: relative;	
+    box-shadow: 10px -5px 10px 0px #3c3b37;
+    border-right: solid 2px #3c3b37;
+    border-top: solid 2px #3c3b37;
+    resize: none;
+}
+   
+#text-salida:focus{
+    background-color: #b89883; 
+}
+
+#text-salida::placeholder{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Diary of an 8-bit mage";
+    font-style: bold;  
+    transform: translateY(5.7rem);
+}
+/* Barra de overflow personalizada */
+#text-salida::-webkit-scrollbar{
+    width: 10px;
+    
+}
+#text-salida::-webkit-scrollbar-thumb{
+    background-color: #4b4a4a;
+    border-radius: 10px;
+}
+#text-salida::-webkit-scrollbar-track{
+    background-color: #8d8d8d;
+}
+
+.botones{
+    padding-top: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* ENCRIPTAR */
+#btn-encriptar{
+    background-color: #ffe59d;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    color: rgb(83, 63, 63);
+}
+
+#btn-encriptar:hover{
+    background-color: #f7e2a8f5;
+}
+#btn-encriptar:active {
+    background-color: #aea17cf5;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/* DESENCRIPTAR */
+#btn-desencriptar{
+    background-color: #ffe59d;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    color: rgb(83, 63, 63);
+    
+}
+
+#btn-desencriptar:hover{
+    background-color: #f7e2a8f5;
+}
+#btn-desencriptar:active {
+    background-color: #aea17cf5;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/* BOTON COPIAR */
+#btn-copiar{
+    background-color: #ECECEC;
+    display: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    color: rgb(83, 63, 63);  
+}
+#btn-copiar:hover{
+    background-color: #dadada;
+}
+
+#btn-copiar:active {
+    background-color: #a0a0a0;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+main{
+    margin-bottom: 3rem;
+}
+
+/* Barra lateral scrollbar */
+html::-webkit-scrollbar{
+    width: 12px;  
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: #4b4a4a;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-track{
+    background-color: #8d8d8d;
+}

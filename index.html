@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador🐱‍💻</title>
+    <link rel="icon" href="/imagenes/imagenlogohead.png"/>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="middle.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <header>
+        <div class="Intro">
+            <h1 class="text">Encriptador
+                <img id="pato-bailando" src="https://media.tenor.com/CGIHMXu6m_4AAAAd/funny.gif" alt="pato">
+            </h1>
+           
+        </div>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="https://www.instagram.com/alfo_thomas/" target="_blank"><img id="instagram" src="/imagenes/Instagram.png" alt="instagram"></a></li>
+                <li><a href="https://www.youtube.com/channel/UCteGNNjH9Ial9zLwZWtq5Mg" target="_blank"> <img  id="youtube" src="/imagenes/Youtube.png" alt="youtube"></a></li>
+                <li><a href="https://www.linkedin.com/in/alfonso-ferraro-a173m8a20031a6d15/" target="_blank"><img id="linke" src="/imagenes/linke png.png" alt="github"></a></li>
+            </ul>
+        </nav>
+        <a class="ctn" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> <button id="mas-info">Mas Info</button></a>
+    </header>
+    <main>
+     <span id="sub-titulo">
+        <label for="text-entrada"><h1 id="encriptar">Texto para Encriptar</h1></label>
+        <label for="text-salida"><h1 id="encriptado">Texto Encriptado</h1></label>
+     </span>
+     <div class="container-texto">
+        <div>
+              <input type="text" id="text-entrada" placeholder="Ingrese el texto para encriptar" oninput="playTypingSound()">
+        </div>
+        <div>
+              <textarea id="text-salida" placeholder="Esperando para encriptar" readonly></textarea>
+        </div>
+    </div>
+     <section class="botones">
+        <div>
+            <button id="btn-encriptar" onmousedown="sound_1.play()" onclick="encriptar()"> Encriptar</button>
+        </div>
+        <div>
+            <button id="btn-copiar" onmousedown="sound_2.play()" onclick="copiar()"> Copiar texto Encriptado</button>
+        </div>
+        <div>
+            <button id="btn-desencriptar" onmousedown="sound_1.play()" onclick="desencriptar()">Desencriptar</button>
+        </div>
+     </section>
+    </main>
+    <footer>
+        <p class="parrafo-1"> &#169 <a class="enlace-github" href="https://github.com/Alfonio" target="_blank">https://github.com/Alfonio</a></p>
+    </footer>
+</body>
+<script 
+src="index.js">
+</script>
+</html>
