@@ -15,7 +15,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/alfonso (thomas) ferraro fidalgo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="alfonso (thomas) ferraro fidalgo" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/alfonso-ferraro-a173m8a20031a6d15/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="alfonso (thomas) ferraro fidalgo" height="30" width="40" /></a>
 <a href="https://instagram.com/https://www.instagram.com/alfo_thomas/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/alfo_thomas/" height="30" width="40" /></a>
 <a href="https://www.youtube.com/c/https://www.youtube.com/channel/uctegnnjh9ial9zlwzwtq5mg" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/channel/uctegnnjh9ial9zlwzwtq5mg" height="30" width="40" /></a>
 </p>
