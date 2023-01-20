@@ -93,10 +93,9 @@ input.addEventListener("input", function() {
     }
   });
 
-//   Hace que primeramente elimine cualquier caracter especial ingresado y luego salga una alerta con el caracter especial que se ingreso diciendo que no se puede ingresar borrandolo
-  const regex = /[^a-zA-Z0-9]/g;
+const regex = /[^a-zA-Z0-9\s]/g;
 
-  input.addEventListener("input", function() {
+input.addEventListener("input", function() {
     let match = input.value.match(regex);
     if (match) {
       alert(`Caracteres inválidos: ${match.join(",")}`);
@@ -104,4 +103,4 @@ input.addEventListener("input", function() {
     } else {
       input.value = input.value.toLowerCase();
     }
-  });
+});
