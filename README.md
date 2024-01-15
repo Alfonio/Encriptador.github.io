@@ -1,4 +1,4 @@
-[![MasterHead](https://i.pinimg.com/originals/99/8e/05/998e055aba57c24138220937cc5166ab.gif)
+![MasterHead](https://i.pinimg.com/originals/99/8e/05/998e055aba57c24138220937cc5166ab.gif)
 <h1 align="center">Hi!!! 👋, I'm Alfonso Ferraro</h1>
 <h3 align="center">I am a computer engineering student and I dedicate myself to front end programming</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=alfonio&label=Profile%20views&color=0e75b6&style=flat" alt="alfonio" /> </p>
